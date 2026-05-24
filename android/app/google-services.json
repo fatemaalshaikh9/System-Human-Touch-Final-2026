@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "137179985539",
+    "project_id": "human-touch-35bd0",
+    "storage_bucket": "human-touch-35bd0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137179985539:android:8191e316f374f1dec34db6",
+        "android_client_info": {
+          "package_name": "com.example.humantouch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPT2Tn1XIT1VnhOq1nteNeyMT9XRbcVNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

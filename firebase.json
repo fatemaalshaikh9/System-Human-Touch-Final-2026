@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "human-touch-35bd0",
+          "appId": "1:137179985539:android:8191e316f374f1dec34db6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "human-touch-35bd0",
+          "configurations": {
+            "android": "1:137179985539:android:8191e316f374f1dec34db6",
+            "ios": "1:137179985539:ios:417aab3e406e4a94c34db6",
+            "macos": "1:137179985539:ios:417aab3e406e4a94c34db6",
+            "web": "1:137179985539:web:e9d4c6a137f6c05ac34db6",
+            "windows": "1:137179985539:web:eb05bffee243a49cc34db6"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "passwordreset",
+      "codebase": "passwordreset",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

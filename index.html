@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Human Touch</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+  <!-- HERO -->
+
+  <header class="hero" id="home">
+
+    <nav class="navbar">
+
+      <div class="logo">
+        Human Touch
+      </div>
+
+      <button class="menu-btn" onclick="openMenu()">
+        ☰
+      </button>
+
+    </nav>
+
+    <div class="hero-content">
+
+      <img
+        src="images/logo.png"
+        class="hero-logo"
+        alt="Human Touch Logo"
+      />
+
+      <h1>Human Touch</h1>
+
+      <p class="subtitle">
+        Your Smart Support Partner for Safer and Easier Daily Living
+      </p>
+
+      <p class="description">
+        Human Touch is an assistive mobile application designed to support people
+        with disabilities in managing daily routines, communicating their needs,
+        receiving emergency help, accessing health support, and staying connected
+        with companions and volunteers.
+      </p>
+
+      <div class="buttons">
+
+        <a href="#features" class="btn-primary">
+          Explore Features
+        </a>
+
+        <a href="#contact" class="btn-secondary">
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="wave"></div>
+
+  </header>
+
+  <!-- SIDE MENU -->
+
+  <div class="side-menu" id="sideMenu">
+
+    <button class="close-btn" onclick="closeMenu()">
+      ✕
+    </button>
+
+    <a href="#home" onclick="closeMenu()">Home</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#problem" onclick="closeMenu()">Problem</a>
+    <a href="#objectives" onclick="closeMenu()">Objectives</a>
+    <a href="#features" onclick="closeMenu()">Features</a>
+    <a href="#technology" onclick="closeMenu()">Technologies</a>
+    <a href="#results" onclick="closeMenu()">Results</a>
+    <a href="#future" onclick="closeMenu()">Future Work</a>
+    <a href="#screenshots" onclick="closeMenu()">Screenshots</a>
+    <a href="#team" onclick="closeMenu()">Team</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+
+  </div>
+
+  <!-- ABOUT -->
+
+  <section class="about-section" id="about">
+
+    <div class="section-header">
+      <span></span>
+      <h2>About Human Touch</h2>
+    </div>
+
+    <p>
+      Human Touch is a smart companion application created to improve daily life
+      and independence for people with disabilities. The application provides
+      reminders, AI communication, emergency support, accessible guidance,
+      health support, and volunteer services in one easy-to-use platform.
+    </p>
+
+  </section>
+
+  <!-- FEATURES -->
+
+  <section class="features-section" id="features">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Key Features</h2>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="icon">⏰</div>
+        <h3>Smart Reminders</h3>
+        <p>
+          Medication, meal, and appointment reminders to support daily routines.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🤖</div>
+        <h3>AI Communication</h3>
+        <p>
+          Smart communication support using AI, voice input,
+          and text-to-speech.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🚨</div>
+        <h3>Emergency Support</h3>
+        <p>
+          Quick emergency help and emergency contact access.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">📍</div>
+        <h3>Accessible Guidance</h3>
+        <p>
+          Helps users find accessible places and useful services.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🤝</div>
+        <h3>Volunteer Help</h3>
+        <p>
+          Connects users with volunteers for assistance and support.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🌙</div>
+        <h3>Accessibility Options</h3>
+        <p>
+          Includes dark mode, large text, and bilingual support.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROBLEM -->
+
+  <section class="problem-section" id="problem">
+
+    <div class="section-header light">
+      <span></span>
+      <h2>Problem Statement</h2>
+    </div>
+
+    <p>
+      People with disabilities may face challenges in communication,
+      health management, emergency situations, and accessing suitable
+      services. Human Touch aims to simplify daily life and improve
+      independence through smart assistive technologies.
+    </p>
+
+  </section>
+
+  <!-- OBJECTIVES -->
+
+  <section class="objectives-section" id="objectives">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Project Objectives</h2>
+    </div>
+
+    <div class="objectives-grid">
+
+      <div class="objective-card">
+        <h3>01</h3>
+        <p>
+          Support users in managing daily routines independently.
+        </p>
+      </div>
+
+      <div class="objective-card">
+        <h3>02</h3>
+        <p>
+          Improve communication using AI and accessibility tools.
+        </p>
+      </div>
+
+      <div class="objective-card">
+        <h3>03</h3>
+        <p>
+          Provide fast emergency support and assistance.
+        </p>
+      </div>
+
+      <div class="objective-card">
+        <h3>04</h3>
+        <p>
+          Connect patients, companions, and volunteers together.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TECHNOLOGIES -->
+
+  <section class="technology-section" id="technology">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Technologies Used</h2>
+    </div>
+
+    <!-- Development Tools -->
+
+    <h3 class="tech-category-title">
+      Development Tools
+    </h3>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <img src="images/androidstudio.png" alt="Android Studio"/>
+        <h3>Android Studio</h3>
+      </div>
+
+      <div class="tech-card">
+        <img src="images/github.png" alt="GitHub"/>
+        <h3>GitHub</h3>
+      </div>
+
+      <div class="tech-card">
+        <img src="images/drawio.png" alt="Draw.io"/>
+        <h3>Draw.io</h3>
+      </div>
+
+    </div>
+
+    <!-- Backend -->
+
+    <h3 class="tech-category-title">
+      Backend & Database
+    </h3>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <img src="images/firebase.png" alt="Firebase"/>
+        <h3>Firebase</h3>
+      </div>
+
+    </div>
+
+    <!-- AI -->
+
+    <h3 class="tech-category-title">
+      AI & Accessibility Features
+    </h3>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <img src="images/ai.png" alt="AI"/>
+        <h3>Artificial Intelligence</h3>
+      </div>
+
+      <div class="tech-card">
+        <img src="images/tts.png" alt="TTS"/>
+        <h3>Text-to-Speech</h3>
+      </div>
+
+      <div class="tech-card">
+        <img src="images/stt.png" alt="STT"/>
+        <h3>Speech-to-Text</h3>
+      </div>
+
+    </div>
+
+    <!-- MAPS -->
+
+    <h3 class="tech-category-title">
+      Location Services
+    </h3>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <img src="images/maps.png" alt="Google Maps"/>
+        <h3>Google Maps API</h3>
+      </div>
+
+    </div>
+
+    <!-- WEBSITE -->
+
+    <h3 class="tech-category-title">
+      Website Technologies
+    </h3>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <img src="images/html.png" alt="HTML"/>
+        <h3>HTML / CSS / JavaScript</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RESULTS -->
+
+  <section class="results-section" id="results">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Results</h2>
+    </div>
+
+    <div class="results-box">
+
+      <p>✔ Developed a complete assistive mobile application for people with disabilities.</p>
+
+      <p>✔ Implemented AI-powered communication and accessibility support.</p>
+
+      <p>✔ Created emergency support and volunteer assistance features.</p>
+
+      <p>✔ Added reminder systems for medication, meals, and appointments.</p>
+
+      <p>✔ Integrated Google Maps services for accessible guidance.</p>
+
+    </div>
+
+  </section>
+
+  <!-- FUTURE WORK -->
+
+  <section class="future-section" id="future">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Conclusion & Future Work</h2>
+    </div>
+
+    <div class="future-box">
+
+      <p>
+        Human Touch successfully combines accessibility,
+        AI communication, emergency services, reminders,
+        and volunteer support into one mobile application.
+      </p>
+
+      <p>
+        Future improvements may include wearable device integration,
+        smart health monitoring, additional AI capabilities,
+        and more accessibility services.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SCREENSHOTS -->
+
+  <section class="screenshots-section" id="screenshots">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Application Screenshots</h2>
+    </div>
+
+    <div class="screenshots-grid">
+
+      <div class="phone-card">
+        <img src="images/screen1.png" alt="Dashboard"/>
+      </div>
+
+      <div class="phone-card">
+        <img src="images/screen2.png" alt="Communication"/>
+      </div>
+
+      <div class="phone-card">
+        <img src="images/screen3.png" alt="Emergency"/>
+      </div>
+
+    </div>
+
+  </section>
+<section class="team-section" id="team">
+
+  <div class="section-header center">
+    <span></span>
+    <h2>About the Project & Team Members</h2>
+  </div>
+
+  <div class="about-team-box">
+
+    <p>
+      This project is a Final Year Senior Project completed during
+      Semester 2 of the Academic Year 2025/2026 at the College of
+      Information Technology, University of Bahrain.
+    </p>
+
+  </div>
+<!-- STUDENTS -->
+
+<h3 class="team-category-title">
+  Students
+</h3>
+
+<div class="team-grid">
+
+  <!-- STUDENT 1 -->
+
+  <div class="team-card">
+
+    <div class="member-img">👤</div>
+
+    <h3>Farqad Ahmed</h3>
+
+    <div class="student-info">
+      <p><strong>Student ID:</strong> 202002941</p>
+      <p><strong>Major:</strong> Computer Science </p>
+      <p><strong>Email:</strong></p>
+      <p class="team-email">
+        202002941@stu.uob.edu.bh
+      </p>
+    </div>
+
+  </div>
+
+  <!-- STUDENT 2 -->
+
+  <div class="team-card">
+
+    <div class="member-img">👤</div>
+
+    <h3>Fatema Mohamed</h3>
+
+    <div class="student-info">
+      <p><strong>Student ID:</strong> 202106980</p>
+      <p><strong>Major:</strong> Software Engineering </p>
+      <p><strong>Email:</strong></p>
+      <p class="team-email">
+        202106980@stu.uob.edu.bh
+      </p>
+    </div>
+
+  </div>
+
+  <!-- STUDENT 3 -->
+
+  <div class="team-card">
+
+    <div class="member-img">👤</div>
+
+    <h3>Fatema Abdulla</h3>
+
+    <div class="student-info">
+      <p><strong>Student ID:</strong> 202010051</p>
+      <p><strong>Major:</strong> Software Engineering </p>
+      <p><strong>Email:</strong></p>
+      <p class="team-email">
+        202010051@stu.uob.edu.bh
+      </p>
+    </div>
+
+  </div>
+
+</div>
+    
+
+  <!-- SUPERVISOR -->
+
+  <h3 class="team-category-title">
+    Supervisor
+  </h3>
+
+  <div class="supervisor-card">
+
+    <div class="member-img">👨‍🏫</div>
+
+    <h3>
+      Mr. YASER SUHAIL MOHAMMED AL-KHATEEB
+    </h3>
+
+    <p class="team-email">
+      yalkhateeb@uob.edu.bh
+    </p>
+
+  </div>
+
+</section>
+      
+
+  <!-- CONTACT -->
+
+  <section class="contact-section" id="contact">
+
+    <div class="section-header center">
+      <span></span>
+      <h2>Contact Us</h2>
+    </div>
+
+    <p>
+      For more information about Human Touch,
+      please contact our project team through the official project email.
+    </p>
+
+    <a href="mailto:info@humantouch.com" class="contact-btn">
+      info@humantouch.com
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h3>Human Touch</h3>
+
+    <p>
+      Senior Project - University of Bahrain
+    </p>
+
+    <p>
+      © 2026 Human Touch. All rights reserved.
+    </p>
+
+  </footer>
+
+  <!-- SCRIPT -->
+
+  <script>
+
+    function openMenu() {
+      document.getElementById("sideMenu").classList.add("active");
+    }
+
+    function closeMenu() {
+      document.getElementById("sideMenu").classList.remove("active");
+    }
+
+  </script>
+
+</body>
+</html>

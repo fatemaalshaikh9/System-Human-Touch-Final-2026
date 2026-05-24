@@ -1,0 +1,100 @@
+name: humantouch
+description: "Human Touch Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI & Fonts
+  google_fonts: ^6.3.0
+  percent_indicator: ^4.2.3
+  font_awesome_flutter: ^10.7.0
+
+  # State management
+  provider: ^6.1.5
+
+  # Local storage
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^9.2.4
+
+  # Date / localization
+  intl: ^0.20.2
+  timezone: ^0.9.4
+
+  # Communication
+  flutter_tts: ^4.2.5
+  speech_to_text: ^7.3.0
+  permission_handler: ^12.0.1
+  emailjs: ^4.0.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.3
+
+  # Location & Maps
+  geolocator: ^14.0.2
+  google_maps_flutter: ^2.7.0
+  http: ^1.2.2
+
+
+
+  # Call + External links
+  url_launcher: ^6.3.2
+
+  # Emergency
+  flutter_sms: ^2.3.3
+
+  # QR
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.1.2
+
+    # Firebase
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+  firebase_messaging: ^16.2.0
+  cloud_functions: ^6.3.0
+
+  # File & Image
+  image_picker: ^1.1.2
+
+  # Voice Messages
+  record: ^6.0.0
+  audioplayers: ^6.1.0
+  firebase_storage: ^13.0.0
+  path_provider: ^2.1.5
+
+  # Rating
+  flutter_rating_bar: ^4.0.1
+
+  # Calendar
+  table_calendar: ^3.1.2
+
+  # Zego Call
+  zego_uikit_prebuilt_call: ^4.16.29
+  zego_uikit_signaling_plugin: ^2.8.7
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - .env
